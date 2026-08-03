@@ -1,0 +1,106 @@
+/* ページ全体 */
+body {
+    background: linear-gradient(to bottom, #ffe4ec, #fff8dc);
+    font-family: "Yu Gothic", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* タイトル */
+h1 {
+    text-align: center;
+    background-color: #ff8fab;
+    color: white;
+    padding: 25px;
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+/* コンテンツ */
+.container {
+    width: 75%;
+    margin: 40px auto;
+    background: white;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* 見出し */
+h2 {
+    color: #ff5d8f;
+    background-color: #ffe4ec;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+/* 本文 */
+p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* リスト */
+ul {
+    list-style: "🌸 ";
+    font-size: 18px;
+    line-height: 2;
+}
+
+/* 写真 */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 220px;
+    border-radius: 50%;
+    border: 6px solid #ffb3c6;
+    box-shadow: 0 0 15px #ffc8dd;
+}
+
+/* 表 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #ff8fab;
+    color: white;
+}
+
+td {
+    background-color: #fff0f5;
+}
+
+th, td {
+    border: 2px solid #ffd6e0;
+    padding: 12px;
+    text-align: center;
+}
+
+/* ボタン */
+button {
+    background-color: #ff8fab;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff5d8f;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    background-color: #ff8fab;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
